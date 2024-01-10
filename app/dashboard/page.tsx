@@ -9,12 +9,10 @@ import {
 } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout";
-import { Overview } from "@/components/overview";
 
-export default function Dashboard() {
+export default function Index() {
   return (
     <Layout className="p-4 space-y-4 sm:p-8">
-      <Overview />
       <div className="inline-flex justify-between w-full">
         <div className="space-y-1">
           <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">

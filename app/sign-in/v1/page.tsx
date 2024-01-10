@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import * as z from "zod";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -23,7 +23,7 @@ const FormSchema = z.object({
   password: z.string(),
 });
 
-export default function SignInV1() {
+export default function Index() {
   const { toast } = useToast();
 
   const form = useForm<z.infer<typeof FormSchema>>({
